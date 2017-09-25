@@ -9,3 +9,5 @@
 /.settings/
 /out/
 
+#Database
+db.dat*
