@@ -83,8 +83,8 @@ public class UserTest {
   }
 
   /**
-   * Test method for {@link ch.fhnw.edu.rental.model.User#getRentals()} . Test method for
-   * {@link ch.fhnw.edu.rental.model.User#setRentals()}.
+   * Test method for {@link ch.fhnw.swc.mrs.model.User#getRentals()}.
+   * Test method for {@link ch.fhnw.swc.mrs.model.User#setRentals(List<Rental>)}.
    */
   @Test
   public void testSetterGetterRentals() {
@@ -97,8 +97,8 @@ public class UserTest {
   }
 
   /**
-   * Test method for {@link ch.fhnw.edu.rental.model.User#getName()}. Test method for
-   * {@link ch.fhnw.edu.rental.model.User#setName()}.
+   * Test method for {@link ch.fhnw.swc.mrs.model.User#getName()}. Test method for
+   * {@link ch.fhnw.swc.mrs.model.User#setName(String)}.
    */
   @Test
   public void testSetterGetterName() {
@@ -126,8 +126,8 @@ public class UserTest {
   }
 
   /**
-   * Test method for {@link ch.fhnw.edu.rental.model.User#setName(java.lang.String)}. Test method
-   * for {@link ch.fhnw.edu.rental.model.User#getFirstName()}.
+   * Test method for {@link ch.fhnw.swc.mrs.model.User#setName(java.lang.String)}.
+   * Test method for {@link ch.fhnw.swc.mrs.model.User#getFirstName()}.
    */
   @Test
   public void testSetterGetterFirstName() {
@@ -156,7 +156,7 @@ public class UserTest {
   }
 
   /**
-   * Test method for {@link ch.fhnw.edu.rental.model.User#getCharge()}.
+   * Test method for {@link ch.fhnw.swc.mrs.model.User#getCharge()}.
    */
   @Test
   public void testGetCharge() {

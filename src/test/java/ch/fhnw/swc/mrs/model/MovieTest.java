@@ -35,7 +35,7 @@ public class MovieTest {
 
   /**
    * Hashcode and equals are always overridden and tested together. Test method for
-   * {@link ch.fhnw.edu.rental.model.Movie#hashCode()}.
+   * {@link ch.fhnw.swc.mrs.model.Movie#hashCode()}.
    * 
    * @throws InterruptedException should not be thrown
    */
@@ -69,7 +69,7 @@ public class MovieTest {
   }
 
   /**
-   * Test method for {@link ch.fhnw.edu.rental.model.Movie#Movie()}.
+   * Test method for {@link ch.fhnw.swc.mrs.model.Movie#Movie()}.
    */
   @Test
   public void testMovie() {
@@ -83,8 +83,7 @@ public class MovieTest {
 
   /**
    * Test method for
-   * {@link ch.fhnw.edu.rental.model.Movie#Movie(java.lang.String, ch.fhnw.edu.rental.model.PriceCategory)}
-   * .
+   * {@link ch.fhnw.swc.mrs.model.Movie#Movie(java.lang.String, ch.fhnw.swc.mrs.model.PriceCategory)}
    * 
    * @throws InterruptedException must not be thrown
    */
@@ -103,8 +102,7 @@ public class MovieTest {
   }
 
   /**
-   * Test method for {@link ch.fhnw.edu.rental.model.Movie#Movie(java.lang.String, java.util.Date,
-   * ch.fhnw.edu.rental.model.PriceCategory, int ageRating)} .
+   * Test method for {@link ch.fhnw.swc.mrs.model.Movie#Movie(java.lang.String, java.time.LocalDate, ch.fhnw.swc.mrs.model.PriceCategory, int)} .
    */
   @Test
   public void testMovieStringDatePriceCategory() throws InterruptedException {
@@ -114,8 +112,7 @@ public class MovieTest {
   }
 
   /**
-   * Test method for {@link ch.fhnw.edu.rental.model.Movie#Movie(java.lang.String,
-   * ch.fhnw.edu.rental.model.PriceCategory, int ageRating)} .
+   * Test method for {@link ch.fhnw.swc.mrs.model.Movie#Movie(java.lang.String, java.time.LocalDate, ch.fhnw.swc.mrs.model.PriceCategory, int)} .
    */
   @Test
   public void testExceptionOnMissingTitle() {
@@ -148,8 +145,8 @@ public class MovieTest {
   }
 
   /**
-   * Test method for {@link ch.fhnw.edu.rental.model.Movie#Movie(java.lang.String, java.util.Date,
-   * ch.fhnw.edu.rental.model.PriceCategory, int ageRating)} .
+   * Test method for {@link ch.fhnw.swc.mrs.model.Movie#Movie(java.lang.String, java.time.LocalDate, ch.fhnw.swc.mrs.model.PriceCategory, int)}
+   *
    */
   @Test
   public void testExceptionMovieStringDatePriceCategory() {

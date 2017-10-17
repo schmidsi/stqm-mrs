@@ -96,6 +96,19 @@ public class Movie {
     log.trace("exiting Movie(String, Date, PriceCategory, int)");
   }
 
+
+  /**
+   * @param aTitle none.
+   * @param aPriceCategory none.
+   */
+  public Movie(String aTitle, PriceCategory aPriceCategory) {
+    log.trace("entering Movie(String, Date, PriceCategory, int)");
+    title.set(aTitle);
+    priceCategory.set(aPriceCategory);
+    log.trace("exiting Movie(String, Date, PriceCategory, int)");
+  }
+
+
   /**
    * @return unique identification number of this Movie.
    */

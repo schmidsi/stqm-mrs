@@ -172,7 +172,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.10.3</version>
+				<version>3.0.0-M1</version>
 				<configuration>
 					<doctitle>Movie Rental System - Software Construction Lab</doctitle>
 					<footer>Copyright © 2017 Christoph Denzler, Martin Kropp - IMVS,

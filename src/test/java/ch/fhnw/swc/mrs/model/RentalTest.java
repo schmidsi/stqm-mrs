@@ -150,7 +150,7 @@ public class RentalTest {
 
     /**
      * Test method for
-     * {@link ch.fhnw.edu.rental.model.Rental#calcRemainingDaysOfRental(java.util.Date)}.
+     * {@link ch.fhnw.swc.mrs.model.Rental#calcRemainingDaysOfRental(java.util.Date)}.
      */
     @Test
     public void testCalcDaysOfRental() {

@@ -23,7 +23,7 @@ public class ChildrenPriceCategoryTest {
     }
 
     /**
-     * Test method for {@link ch.fhnw.edu.rental.model.ChildrenPriceCategory#getCharge(int)}.
+     * Test method for {@link ch.fhnw.swc.mrs.model.ChildrenPriceCategory#getCharge(long)}.
      */
     @Test
     public void testGetCharge() {
@@ -38,7 +38,7 @@ public class ChildrenPriceCategoryTest {
     }
 
     /**
-     * Test method for {@link ch.fhnw.edu.rental.model.ChildrenPriceCategory#toString()}.
+     * Test method for {@link ch.fhnw.swc.mrs.model.ChildrenPriceCategory#toString()}.
      */
     @Test
     public void testToString() {
