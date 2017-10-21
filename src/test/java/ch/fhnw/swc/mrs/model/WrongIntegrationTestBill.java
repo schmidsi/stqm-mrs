@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class ITBill {
+public class WrongIntegrationTestBill {
 
     /** users to use in tests. */
     private User u;
