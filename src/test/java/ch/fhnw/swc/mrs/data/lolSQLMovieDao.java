@@ -6,7 +6,7 @@ import org.dbunit.dataset.IDataSet;
 
 import java.sql.Connection;
 
-public class ITSQLMovieDao extends DBTestCase {
+public class lolSQLMovieDao extends DBTestCase {
 
     /** Class Under Test: SQLMovieDao **/
     private SQLMovieDAO dao;

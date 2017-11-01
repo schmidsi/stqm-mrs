@@ -14,7 +14,7 @@ import org.junit.Test;
 
 import ch.fhnw.swc.mrs.data.DbMRSServices;
 
-public class ExampleSolutionIntegrationTestBill {
+public class lolBill {
 
     Movie m;
     User u;

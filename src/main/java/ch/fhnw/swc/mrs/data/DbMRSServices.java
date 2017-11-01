@@ -129,11 +129,9 @@ public class DbMRSServices implements MRSServices {
 	    try {
 	        getRentalDAO().save(r);
 	        m.setRented(true);
-
-	        Bill b = new Bill(u.getFirstName(), u.getName(), u.getRentals());
+			getMovieDAO().saveOrUpdate(m);
+	        Bill b = new Bill(u.getName(), u.getFirstName(), u.getRentals());
 	        System.out.println(b.print());
-
-	        getMovieDAO().saveOrUpdate(m);
 	    } catch (Exception e) {
 	        e.printStackTrace();
 	        r = null;
