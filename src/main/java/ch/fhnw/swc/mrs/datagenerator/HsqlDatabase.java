@@ -16,7 +16,7 @@ import java.util.List;
  */
 public final class HsqlDatabase {
     public static final String DB_DRIVER = "org.hsqldb.jdbcDriver";
-    public static final String DB_CONNECTION = "jdbc:hsqldb:hsql://localhost/mrsdb";
+    public static final String DB_CONNECTION = "jdbc:hsqldb:hsql://localhost/mrsdb-test";
     
     private Connection connection;
 
