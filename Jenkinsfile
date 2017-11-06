@@ -1,4 +1,5 @@
 #!/usr/bin/env groovy
+
 pipeline {
     agent any
 
@@ -6,6 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                sh 'mvn package'
             }
         }
         stage('Test') {
