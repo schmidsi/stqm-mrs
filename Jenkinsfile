@@ -1,4 +1,5 @@
 #!/usr/bin/env groovy
+#!/usr/bin/env maven
 
 pipeline {
     agent any
