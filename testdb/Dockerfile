@@ -7,3 +7,4 @@ RUN docker run -it --rm \
     	-v $(pwd)/dbscripts:/scripts \
     	blacklabelops/hsqldb sqltool
 EXPOSE
+VOLUME /testdata

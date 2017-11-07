@@ -3,6 +3,10 @@
 pipeline {
     agent any
 
+    triggers{
+        pollSCM('* * * * *')
+    }
+
     tools{
         maven 'localMaven'
     }
@@ -16,7 +20,7 @@ pipeline {
         stage('Compile & Test') {
             steps {
                 echo 'running Maven package...'
-                sh 'mvn package'
+                sh 'mvn clean package'
                 archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
             }
             post {
