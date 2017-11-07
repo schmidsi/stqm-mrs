@@ -30,9 +30,6 @@ pipeline {
             }
         }
         stage('System Tests') {
-            agent {
-                dockerfile { dir 'testdb' }
-            }
         	steps {
         	    echo 'running Docker'
         		}
